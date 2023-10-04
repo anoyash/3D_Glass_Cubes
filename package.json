@@ -1,0 +1,20 @@
+{
+  "name": "1_3d_glass_cubes",
+  "version": "1.0.0",
+  "description": "3D glass cubes with one ping pong animation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html"
+  },
+  "author": "Anoyash",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

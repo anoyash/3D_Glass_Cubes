@@ -1,12 +1,15 @@
 {
   "name": "1_3d_glass_cubes",
   "version": "1.0.0",
+  "homepage":"https://anoyash.github.io/3D_Glass_Cubes",
   "description": "3D glass cubes with one ping pong animation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "author": "Anoyash",
   "license": "ISC",
@@ -18,6 +21,7 @@
   },
   "devDependencies": {
     "buffer": "^6.0.3",
+    "gh-pages": "^6.0.0",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   }
